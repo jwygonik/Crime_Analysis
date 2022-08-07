@@ -12,10 +12,16 @@
 ## Description Of Our Source Of Data 
 <p align="justify"> Our team was assigned with the argument that demographics influence crime. Is there a difference in crime rate and factors.
 Arguments posed and supported in our project are the following. What environmental factors directly correlate with the number of crimes and factors? How do other demographics play into crime? Is there less crime in areas where there are more human services available?
-Resources we have sourced for our supporting argument is data regarding arrest data, census data, Los Angeles Arrests, and Los Angeles Crimes. We have also compared this data to LAPD Police Stations, Mental Health Centers, and Mental Health Programs. 
+Resources we have sourced for our supporting argument is data regarding arrest data, census data, Los Angeles Arrests, and Los Angeles Crimes. We have also compared this data to LAPD Police Stations, Mental Health Centers, and Mental Health Programs.
 
 Our team's target data is male and female.
 <p>
+
+## Project API Example 
+![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/API_EXAMPLE.png?raw=true)
+
+## Arrest Data Cleaning  
+![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/ML_RDME.png?raw=true)
 
 ## Main Data Sets (Big Data) for reference:
 
@@ -29,9 +35,12 @@ Link 04: [Map - Individual Communties of the City of Los Angeles](https://www.la
 
 ## Other References
 
-Link 01: [LA Crime Data Set](https://www.kaggle.com/datasets/stefanoskypritidis/los-angeles-crimes-201019-cleaned-datased) 
+Link 01: [LA Crime Data Set](https://www.kaggle.com/datasets/stefanoskypritidis/los-angeles-crimes-201019-cleaned-datased)
 
 We have also designated resources to organize Los Angeles census data for 2020.
 
 ## Power Point 
 Link: 01 [Power Point](https://docs.google.com/presentation/d/1WdwCFRmGpm31yviwYexSAIPkVO8Zu1uPUQ204DITov8/edit#slide=id.p)
+
+## ERD La Crime Mental 
+![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/ERD-LA_CRIME_MENTAL.png?raw=true)
