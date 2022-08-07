@@ -1,10 +1,10 @@
 ## Crime_Analysis Summary 
-Crime in a major city (Los Angeles) examining what factors may have a relationship with the crime rate in certain areas (public mental health programs, income, unemployment, demographics, police presence.) We strive to understand the factors closely related to the crime rate and see what needs to be focused on to reduce crime.
+<p align="justify"> Crime in a major city (Los Angeles) examining what factors may have a relationship with the crime rate in certain areas (public mental health programs, income, unemployment, demographics, police presence.) We strive to understand the factors closely related to the crime rate and see what needs to be focused on to reduce crime. <p>
 
 ## Description Of Our Source Of Data 
-Our team was assigned with the argument that demographics influence crime. Is there a difference in crime rate and factors.
+<p align="justify"> Our team was assigned with the argument that demographics influence crime. Is there a difference in crime rate and factors.
 Arguments posed and supported in our project are the following. What environmental factors directly correlate with the number of crimes and factors? How do other demographics play into crime? Is there less crime in areas where there are more human services available?
-Resources we have sourced for our supporting argument is data regarding arrest data, census data, Los Angeles Arrests, and Los Angeles Crimes. We have also compared this data to LAPD Police Stations, Mental Health Centers, and Mental Health Programs.
+Resources we have sourced for our supporting argument is data regarding arrest data, census data, Los Angeles Arrests, and Los Angeles Crimes. We have also compared this data to LAPD Police Stations, Mental Health Centers, and Mental Health Programs. <p>
 
 
 
