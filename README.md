@@ -1,4 +1,7 @@
-## Crime_Analysis Summary 
+---
+## **<h1 align="justify"> Crime_Analysis Summary**
+---
+
 <p align="justify"> Crime in a major city (Los Angeles) examining what factors may have a relationship with the crime rate in certain areas (public mental health programs, income, unemployment, demographics, police presence.) We strive to understand the factors closely related to the crime rate and see what needs to be focused on to reduce crime. <p>
 
 ## Description Of Our Source Of Data 
