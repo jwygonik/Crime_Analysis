@@ -19,9 +19,11 @@ Our team's target data is male and female.
 
 ## Project API Example 
 ![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/API_EXAMPLE.png?raw=true)
+Image Desc: We produced an API called that specfically for Los Angeles, CA. We have ensure our API is protected. 
 
 ## Arrest Data Cleaning  
 ![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/ML_RDME.png?raw=true)
+Image Desc: We have started the ML journey with cleaned data and added information. 
 
 ## Main Data Sets (Big Data) for reference:
 
