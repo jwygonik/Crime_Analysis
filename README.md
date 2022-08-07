@@ -12,7 +12,7 @@ Resources we have sourced for our supporting argument is data regarding arrest d
 
 Link 01: [Arrest Data from 2010 to 2019](https://data.lacity.org/Public-Safety/Arrest-Data-from-2010-to-2019/yru6-6re4)
 
-Link 02: https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u
+Link 02: [Los Angeles crimes 2010-19 cleaned datased](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u)
 
 ## Other References
 
