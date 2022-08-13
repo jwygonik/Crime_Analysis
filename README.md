@@ -46,3 +46,26 @@ Link: 01 [Power Point](https://docs.google.com/presentation/d/1WdwCFRmGpm31yviwY
 
 ## ERD La Crime Mental 
 ![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/ERD-LA_CRIME_MENTAL.png?raw=true)
+
+
+## Update August 13th 2022 
+
+##  Dashboard information for readme
+<p align="Justify"> Include the storyboard image, Desp of tools: we are utilizing tableau public and python for a summary table for more information to help our audience grasp the objective of this project. We are putting our variables together. Our goal is to understand crime and the number of variables associated. We will have a center to join our programs to understand the data better. With zip codes, we will keep them as strings as they have integrators that can cause issues with our data. Our team concluded that unless data has a value in some measurement, we will keep it as a string. We had issues with our zipcodes as they are categorical and not a measure of data. Thus, using this data cleaning measure, we could simplify our data to a general audience; our goal is to use this data to find crime and human resources trends. <p>
+
+## Description of interactive elements
+
+<p align="Justify"> We have elected to utilize the filter and highlight interactive features for our visualizations. We chose those elements to relay the pertinent information of our research. <p>
+
+##  Prepping/Setting Up DataBase
+
+<p align="Justify"> We started by combining the arrest data and LAPD data on pandas. Cleaned the Mental Health Programs, Mental Health Centers, and Substance Abuse Programs to have the same columns, including the new ones added.
+Our team exported the three data frames to SQL tables.
+We created a table that would house all the Mental Health Programs, Mental Health Centers, and Substance Abuse Programs.
+Loaded all of the data from the other tables into the main table.
+We did not have to do a join here since we made all the columns the same in the cleaning process; we just had to load the data into the table instead.
+Exported the grouped data to a CSV to do some additional cleaning in python.
+Exported the complete data into the AWS database so we all could access the same data.
+
+
+We are also breaking down census data by zip to join this with our other data already in AWS. Once our team's project is finished, we can bin everything and load this into the Random Forest machine learning model. We also set up a Neural Network that may also try out, depending on our success with the Random Forest model. The goal will be to predict the number of crimes based on environmental factors. Our team's preliminary model was created using the arrest data, and our final machine learning model will mirror this but have a different target variable(number of crimes)/ other feature variables to consider.
