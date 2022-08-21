@@ -67,5 +67,20 @@ We did not have to do a join here since we made all the columns the same in the 
 Exported the grouped data to a CSV to do some additional cleaning in python.
 Exported the complete data into the AWS database so we all could access the same data.
 
-
 We are also breaking down census data by zip to join this with our other data already in AWS. Once our team's project is finished, we can bin everything and load this into the Random Forest machine learning model. We also set up a Neural Network that may also try out, depending on our success with the Random Forest model. The goal will be to predict the number of crimes based on environmental factors. Our team's preliminary model was created using the arrest data, and our final machine learning model will mirror this but have a different target variable(number of crimes)/ other feature variables to consider.
+
+![RandomOverSampler Results](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/MLSnap.png?raw=true?raw=true)
+
+Above is the current snapshot of the accuracy of our Random Forest Model, taking in factors that contribute to the number of crimes. Below is a list of elements and types of crimes impacting our machine learning model and outcomes ranked from the highest relationship to the number of crimes to the lowest. (edited) 
+
+[-insert images here-] 
+
+## Overcoming Obstinaces 
+
+Our team has been overcoming repeated errors and understanding how to move forward and pivot from our original plan.
+Sorting through the documentation for all the components and tools we needed. As well as the struggles of cleaning a 
+large data set. We plan on taking our data and condensing it to be digested well by the general public. 
+
+Simplifying our complex idea has been an ongoing task. As we are very familiar with our data. We have used outside 
+sources to better understand areas to expand on for the general public. 
+
