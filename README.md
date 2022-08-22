@@ -73,7 +73,7 @@ We are also breaking down census data by zip to join this with our other data al
 
 Above is the current snapshot of the accuracy of our Random Forest Model, taking in factors that contribute to the number of crimes. Below is a list of elements and types of crimes impacting our machine learning model and outcomes ranked from the highest relationship to the number of crimes to the lowest. (edited) 
 
-[-insert images here-] 
+![ML SNAPSHOT](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/MLSnap.png)
 
 ## Overcoming Obstinaces 
 
