@@ -73,7 +73,11 @@ We are also breaking down census data by zip to join this with our other data al
 
 Above is the current snapshot of the accuracy of our Random Forest Model, taking in factors that contribute to the number of crimes. Below is a list of elements and types of crimes impacting our machine learning model and outcomes ranked from the highest relationship to the number of crimes to the lowest. (edited) 
 
----INSERT IMAGE HERE----
+
+![Tableau Dashboard](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/Updated_Screenshot_Tableau.png?raw=true?raw=true)
+
+The image above is a snap shot of our Tableau Dashboard. We are beginning to add in buttons that allow views to navigate to the different visualizations we have created. There is also a portion of the Dashboard that links directly to our GitHub repository (not pictured). We are still pinning down the final layout needed to present a cohesive story about our Los Angeles Crime data. 
+  
 ## Overcoming Obstinaces 
 
 Our team has been overcoming repeated errors and understanding how to move forward and pivot from our original plan.
