@@ -121,3 +121,5 @@ Results of Analysis (correlation matrix)
 Some interesting points are that burglary highly correlates with Narcotic-related crimes and assaults. Moving traffic violations also have a strong correlation with assaults and narcotics-related crimes. Also, assaults have a solid correlation to homicide.
 
 Challenges – initially, when we set up the machine learning model, we had it set up where some of the data had the zips in la county instead of the city zip codes. We eventually noticed this and realized that our model was doing so well because over half of the zips didn’t have any arrests or crime data.
+
+[Speaker notes Link for README.md](https://docs.google.com/document/d/1rx4lCusVnKmoMaijHA6UlxlO6_zK8SUNVsArACxQoQ4/edit?usp=sharing) 
