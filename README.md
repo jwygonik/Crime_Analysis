@@ -87,3 +87,34 @@ large data set. We plan on taking our data and condensing it to be digested well
 Simplifying our complex idea has been an ongoing task. As we are very familiar with our data. We have used outside 
 sources to better understand areas to expand on for the general public. 
 
+## Slide 1 
+Why Random Forest? How was it implemented?
+We selected a random forest because we wanted to understand what variables had the most significant impact on the number of crimes that occurred because of all the different data types we had. We knew we could do this with the feature importance scores. We also selected this type of model because of its ability to assist with solving complex questions.
+
+After pulling data from our AWS database, some of the things we did to the data specific to our machine learning model to ensure this was a success were to group everything by zipping, creating a weighted amount for the census variable. 
+
+Example: med_income and monthly_housing_costs, comparing to the total population in each zip, made a weighted amount for the arrests categories we grouped our data by, corresponding to the total population in each zip, and created bins for ranges of the number of crimes, along with a real crimes column for each zip so we could run a random forest classifier and a random forest regressor.
+
+We initially started with the random forest classifier using the ranges of crimes buckets since we thought we didn’t have enough data to accurately predict a specific number of crimes that occurred in each zip. There were only 130 or so zips (or rows) for Los Angeles City.
+
+We also put together a random forest regressor using the specific number of crimes (or a continuous target variable) to compare the results.
+
+The Random Forest Classifier and the Random Forest Regressor were set up with a 75/25 split for the training and testing data and with 128 estimators.
+
+## Slide 2 
+Results of Analysis (the numbers)
+We achieved an overall accuracy of 73% (75% precision, 73% recall, and 73% f1 score) for the classification model.
+We achieved an overall accuracy of 76-77% for the regression model.
+With the models set up, we were able to come up with some interesting finds that we wanted to share:
+1. The top item in the ranked importance
+was “Total_Pop,” meaning the more densely populated areas had more crimes.
+2. Some of the top items related to the types of crimes that took place were crimes against family, fraud/embezzlement, vehicle theft, weapons, burglary, & stolen property, meaning areas, where these types of crimes are more common are areas where more crimes are likely to occur.
+3. Some other top demographic items included median age and median income. With median age, I think this makes sense with the crimes that we see because generally, for younger adults, we see more violent crimes and more arrests occur. Also, for median income, I think this makes sense because I would imagine people who commit crimes commit those crimes in areas where they are wealthier since they are seeking a more significant return.
+- to try to examine this with the machine learning model, we looked at the specific column results for the last set of trained/tested data returned in the regression model and compared the actual number of crimes; it was 219. We then created a variable to multiply the median income field by 5 to see if this impacted the result the model returned. There were 256 crimes predicted, so there was a 37 crime increase when we increased the median income.
+4. With that said, I think we were able to pull out some great information and get closer to answering the question we set out to ask. Still, for future analysis, I would recommend getting more arrest data beyond just 2020 and also potentially branch out of Los Angeles city, so the model has more data to work with when comparing this same information. Outside of that, I think it would also help improve the accuracy if we continued to add relevant data that could impact arrests, like weather info or info about schools in the area.
+
+ ## Slide 3 
+Results of Analysis (correlation matrix)
+Some interesting points are that burglary highly correlates with Narcotic-related crimes and assaults. Moving traffic violations also have a strong correlation with assaults and narcotics-related crimes. Also, assaults have a solid correlation to homicide.
+
+Challenges – initially, when we set up the machine learning model, we had it set up where some of the data had the zips in la county instead of the city zip codes. We eventually noticed this and realized that our model was doing so well because over half of the zips didn’t have any arrests or crime data.
