@@ -87,6 +87,9 @@ large data set. We plan on taking our data and condensing it to be digested well
 Simplifying our complex idea has been an ongoing task. As we are very familiar with our data. We have used outside 
 sources to better understand areas to expand on for the general public. 
 
+## Updated Final Dashboard 
+![Tableau Dashboard](https://github.com/jwygonik/Crime_Analysis/blob/main/Images/updated_final_dashboard.png?raw=true?raw=true)
+
 ## Slide 1 
 Why Random Forest? How was it implemented?
 We selected a random forest because we wanted to understand what variables had the most significant impact on the number of crimes that occurred because of all the different data types we had. We knew we could do this with the feature importance scores. We also selected this type of model because of its ability to assist with solving complex questions.
